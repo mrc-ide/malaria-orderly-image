@@ -1,6 +1,6 @@
 ## -*-sh-*-
 PACKAGE_ROOT=$(realpath $HERE/..)
-PACKAGE_NAME=malari-orderly-image
+PACKAGE_NAME=malaria-orderly-image
 PACKAGE_ORG=mrcide
 
 GIT_SHA=$(git -C "$PACKAGE_ROOT" rev-parse --short=7 HEAD)

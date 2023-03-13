@@ -1,2 +1,2 @@
 #!/bin/sh
-docker exec -it malari_orderly orderly $*
+docker exec -it malaria_orderly orderly $*
