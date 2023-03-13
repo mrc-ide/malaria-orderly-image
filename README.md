@@ -1,4 +1,4 @@
-# malawia-orderly-image
+# malaria-orderly-image
 
 [![Build status](https://badge.buildkite.com/a1f54f82795e6544edc97731fd72798f33b2b2eeb3fa148a7d.svg)](https://buildkite.com/mrc-ide/malaria-orderly-image)
 
