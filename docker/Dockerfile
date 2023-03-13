@@ -53,7 +53,8 @@ RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
         methods \
         readr \
         terra \
-        tidyr
+        tidyr \
+        vaultr
 
 RUN install_remote \
         mrc-ide/cart
