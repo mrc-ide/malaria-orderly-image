@@ -57,7 +57,7 @@ RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
         vaultr
 
 RUN install_remote \
-        cran/sf@1.0.9 \
+        cran/sf@1.0-9 \
         mrc-ide/cart
 
 
