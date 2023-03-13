@@ -47,7 +47,6 @@ COPY bin /usr/local/bin/
 
 # Add new packages here (in alphabetical order)
 RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
-        cart \
         dplyr \
         geojsonsf \
         malariaAtlas \
@@ -55,6 +54,9 @@ RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
         readr \
         terra \
         tidyr
+
+RUN install_remote \
+        mrc-ide/cart
 
 
 WORKDIR /orderly
