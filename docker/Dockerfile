@@ -51,6 +51,7 @@ RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
         geojsonsf \
         malariaAtlas \
         methods \
+        orderlyweb \
         readr \
         terra \
         tidyr \
